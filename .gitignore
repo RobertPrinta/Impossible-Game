@@ -46,3 +46,5 @@ Logs/shadercompiler-UnityShaderCompiler4.log
 Logs/shadercompiler-UnityShaderCompiler5.log
 Logs/shadercompiler-UnityShaderCompiler6.log
 Logs/shadercompiler-UnityShaderCompiler7.log
+# Ignore any file ending with .log:
+*.log
