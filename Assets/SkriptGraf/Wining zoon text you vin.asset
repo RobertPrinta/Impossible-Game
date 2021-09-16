@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Wining zoon text you vin
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"ui Mesigs text","value":null,"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-12.81964,"y":141.7397},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":-62.0,"y":-133.0},"guid":"c786fa78-0064-4470-b311-bb3f4e5e1350","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"10"},{"type":"System.String","value":{"$content":"You
+      Win","$type":"System.String"},"defaultValues":{},"position":{"x":-205.0,"y":97.0},"guid":"d3c12217-11f2-43f9-b366-baf3c61c0d34","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"13"},{"coroutine":true,"defaultValues":{"target":null},"position":{"x":-543.0,"y":-203.0},"guid":"f1e51df2-536d-499a-81c2-5c84be5fdb95","$version":"A","$type":"Unity.VisualScripting.OnCollisionEnter","$id":"15"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshProUGUI","targetTypeName":"TMPro.TextMeshProUGUI","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":361.0,"y":-184.0},"guid":"9c982d7a-9117-4a2e-bde3-f5a89bd9026f","$version":"A","$type":"Unity.VisualScripting.SetMember"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TMP_InputField","targetTypeName":"TMPro.TMP_InputField","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":303.0,"y":-30.0},"guid":"d662264a-fda5-421f-9031-27962f86dc6e","$version":"A","$type":"Unity.VisualScripting.SetMember"},{"chainable":false,"member":{"name":"text","parameterTypes":null,"targetType":"TMPro.TextMeshPro","targetTypeName":"TMPro.TextMeshPro","$version":"A"},"defaultValues":{"target":null,"input":{"$content":"","$type":"System.String"}},"position":{"x":287.0,"y":150.0},"guid":"ca144505-ddeb-4751-859b-588f2752e0b3","$version":"A","$type":"Unity.VisualScripting.SetMember","$id":"23"},{"sourceUnit":{"$ref":"15"},"sourceKey":"trigger","destinationUnit":{"$ref":"10"},"destinationKey":"enter","guid":"922ab89c-b1c6-4ee3-866f-2497d7956afd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"exit","destinationUnit":{"$ref":"23"},"destinationKey":"assign","guid":"30b3d298-1fc2-431f-8a32-4536b50c8362","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"10"},"destinationKey":"%message","guid":"a65c456a-48ec-4bff-9c97-d794d32454ef","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"output","destinationUnit":{"$ref":"23"},"destinationKey":"input","guid":"596f469b-f3cf-419c-bcb7-a2a261132cf1","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
